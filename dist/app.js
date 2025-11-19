@@ -4,5 +4,8 @@
 // console.log(greet('Harry'))
 const nums = [1, 2, 3, 4];
 nums.map((num) => num * 3);
+const words = ["chat", "chien", "voiture", "code"];
+let words_filter = words.filter((word) => word.length > 4);
+console.log(words_filter);
 export {};
 //# sourceMappingURL=app.js.map
