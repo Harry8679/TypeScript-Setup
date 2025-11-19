@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "es6",
+    "target": "es6",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "types": [],
     "sourceMap": true,
     "declaration": true,
