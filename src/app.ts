@@ -16,3 +16,30 @@ const prices = [10, 5, 30];
 prices.reduce((total: number, price: number) => {
     return total + price;
 }, 0);
+
+type Car = {
+    brand:  string;
+    model:  string;
+    year:  number;
+    info: () => {}
+}
+
+type Country = "Gabon";
+type Ethnicity = "Fang";
+type School = "Sainte Marie" | "Bessieux";
+
+type Gabriellle = {
+    firstName: string;
+    lastName: string;
+    country: Country;
+    ethnicity: Ethnicity;
+    school: School;
+}
+
+const MyWife : Gabriellle = {
+    firstName: "Gabrielle",
+    lastName: "MBANG",
+    country: "Gabon",
+    ethnicity: "Fang",
+    school: "Sainte Marie",
+}

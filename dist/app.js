@@ -11,5 +11,12 @@ const prices = [10, 5, 30];
 prices.reduce((total, price) => {
     return total + price;
 }, 0);
+const MyWife = {
+    firstName: "Gabrielle",
+    lastName: "MBANG",
+    country: "Gabon",
+    ethnicity: "Fang",
+    school: "Sainte Marie",
+};
 export {};
 //# sourceMappingURL=app.js.map
