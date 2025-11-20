@@ -10,3 +10,9 @@ nums.map((num) => num * 3);
 const words = ["chat", "chien", "voiture", "code"];
 let words_filter = words.filter((word) => word.length > 4);
 console.log(words_filter);
+
+const prices = [10, 5, 30];
+
+prices.reduce((total: number, price: number) => {
+    return total + price;
+}, 0);
