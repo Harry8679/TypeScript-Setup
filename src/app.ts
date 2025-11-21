@@ -44,3 +44,9 @@
 //     school: "Sainte Marie",
 // }
 
+type Product = {
+    id: number;
+    name: string;
+    price: number;
+    category: "food" | "tech" | "other";
+}
