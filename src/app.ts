@@ -50,3 +50,8 @@ type Product = {
     price: number;
     category: "food" | "tech" | "other";
 }
+
+let products: Product [] = [
+  { id: 1, name: "Manioc", price: 500, category: "food" },
+  { id: 2, name: "PC Portable", price: 300000, category: "tech" },
+];
